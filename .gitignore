@@ -1,0 +1,7 @@
+# Ignorer tous les fichiers vidéo et png
+/vidéos
+*.mov
+*.mp4
+*.webm
+*.png
+/img
