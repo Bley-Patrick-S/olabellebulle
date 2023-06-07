@@ -15,7 +15,7 @@ header{
 
 .nav ul{
 	width:auto;
-	height:50px;
+	height:40px;
 	margin:auto;
 	text-align:center;
 }
@@ -25,14 +25,15 @@ header{
 }
 .nav ul li a{
 	font-family:Source Sans Pro;
-	font-size:2em;
+	font-size: 25px;
 	font-weight:400;
 	text-decoration:none;
 	color:black;
 }
 .nav ul li a:hover{
-	color:blanchedalmond;
-	text-decoration: underline;
+	color:whitesmoke;
+	/*text-decoration: underline;*/
+	background-color: black;
 }
 vitrine{
 	display: flex;
@@ -72,21 +73,32 @@ video {
 	left: 5%;
 	top: -6rem;
 }
+.anglehaut{
+	position: relative;
+	left: 2%;
+	top: -49rem;
+}
 .bouteilles{
 	position: relative;
 	top: -18em;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content:center;
+	align-items: center;
+}	
+/*@media (max-width: 25%){
+	.bouteilles{flex-direction: column;
 }
+}*/
 .bg{
 	display: flex;
 	flex-direction: column;
+	justify-content: space-around;
 	align-items: center;
 	text-align: center;
-	width: 250px;
-	height: 700px;
+	width: 25%;
+	height: 800px;
 }
 .bg img{
 	width: 149.02px;
@@ -97,8 +109,8 @@ video {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	width: 250px;
-	height: 700px;
+	width: 25%;
+	height: 800px;
 }
 .bd img{
 	width: 149.02px;
@@ -114,17 +126,20 @@ video {
 	font-weight: 400;
 	font-size: 20px;
 }
-.bouteilles button{
-	width: 100px;
-	height: 60px;
-	border-radius: 4%;
-	background-color: rgba(200, 103, 0, 0.88);
+.bouteilles a{
+	width: 130px;
+	height: 20px;
+	padding: 10px 10px;
+	border-radius: 6%;
+	background-color: rgba(1, 11, 15, 0.88);
 	color: white;
 	font-family: Source Sans Pro;
+	text-decoration: none;
 }
 .bulles{
 	display: flex;
-	width: 250px;
+	justify-content: center;
+	width: 25%;
 	height: 500px;
 	left: 0%;
 	top:0%;
@@ -132,4 +147,10 @@ video {
 .bulles img{
 	position: relative;
 	top: 16rem
+}
+.anglebas{
+	display: flex;
+	position: absolute;
+	left: 94%;
+	top: 148%;
 }
