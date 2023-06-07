@@ -62,6 +62,8 @@ video {
 	position: relative;
 	left: 77%;
 	top: -22rem;
+	width: 190px;
+	height: auto;
 }
 .bulleorange{
 	position: relative;
