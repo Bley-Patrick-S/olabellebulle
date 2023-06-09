@@ -152,21 +152,21 @@ video {
 	display: flex;
 	position: absolute;
 	left: 94%;
-	top: 148%;
+	top: 154%;
 }
 atelier{
 	display: flex;
 	flex-direction: column;
 	justify-content:space-around;
-	margin: 0 auto;
-	background-image: url(/img/fond\ atelier.png);
+	background-image: url(/img/fond\ atelier.png) ;
 }
 atelier .anglehaut{
 	top:1em
 }
 .logoadb{
 	display: flex;
-	width: 50%;
+	width: 40%;
+	height: 210px;
 	flex-direction: column;
 	align-items: end;
 	margin: 0 auto;
@@ -186,7 +186,7 @@ atelier .anglebas{
 	display: flex;
 	position: absolute;
 	left: 94%;
-	top: 282%;
+	top: 280%;
 }
 .presentation{
 	width: 80%;
@@ -204,4 +204,17 @@ atelier .anglebas{
 }
 .bloc img{
 	border-radius: 50%;
+}
+.bloc h2{
+	font-family: Source Sans Pro;
+	font-size: 25px;
+	font-weight: 800;
+}
+.bloc h4{
+	font-family: Josefin sans;
+	text-align: center;
+}
+.bloc p{
+	font-family: Josefin sans;
+	font-weight: 300;
 }
