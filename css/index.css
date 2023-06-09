@@ -87,10 +87,10 @@ video {
 	justify-content:center;
 	align-items: center;
 }	
-/*@media (max-width: 25%){
+@media (max-width: 600px){
 	.bouteilles{flex-direction: column;
 }
-}*/
+}
 .bg{
 	display: flex;
 	flex-direction: column;
