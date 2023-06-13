@@ -1,3 +1,5 @@
+
+
 :root {
     --color-gray-clear: #C7C7C7;
     --color-gray-dark: #AFAFAF;
@@ -14,6 +16,7 @@
     --font-family-Source-sans-pro: "Source Sans Pro";
 }
 body{
+	margin: 0;
 	display: flex;
 	flex-direction: column;
 }
@@ -27,16 +30,21 @@ header{
 	height:8em;
 	background:rgba(255,255,255,0.5);
 }
-
+.nav{
+	width: 100%;
+}
 .nav ul{
-	width:auto;
-	height:40px;
-	margin:auto;
-	text-align:center;
+	width: 100%;
+	display: flex;
+	align-items:center;
+	justify-content: space-around;
+	padding : 0;
+  margin : 0;
 }
 .nav ul li{
-	display:inline;
-	margin-right:50px;
+	display:flex;
+	flex-direction: row;
+	text-decoration: none;
 }
 .nav ul li a{
 	font-family:Source Sans Pro;
@@ -49,6 +57,12 @@ header{
 	color:whitesmoke;
 	/*text-decoration: underline;*/
 	background-color: black;
+}
+@media (max-width: 600px){
+	header div{flex-direction: column;
+		display: flex;
+		justify-content: center;
+}
 }
 vitrine{
 	display: flex;
@@ -75,11 +89,9 @@ video {
 	z-index: -1;
 }
 .logoline{
-	position: relative;
+	position: absolute;
 	left: 77%;
-	top: -22rem;
-	width: 190px;
-	height: auto;
+	top: 20rem;
 }
 .bulleorange{
 	position: relative;
@@ -88,14 +100,9 @@ video {
 	left: 5%;
 	top: -6rem;
 }
-.anglehaut{
-	position: relative;
-	left: 2%;
-	top: -49rem;
-}
 .bouteilles{
 	position: relative;
-	top: -18em;
+	top: -10em;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -163,12 +170,7 @@ video {
 	position: relative;
 	top: 16rem
 }
-.anglebas{
-	display: flex;
-	position: absolute;
-	left: 94%;
-	top: 148%;
-}
+
 atelier{
 	display: flex;
 	flex-direction: column;
@@ -406,4 +408,5 @@ process{
 }
 .icone a{
 	color: black;
+
 }
