@@ -1,35 +1,235 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="/css/index.css" type="text/css">
-</head>
-  <body>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dr+Sugiyama&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Pompiere&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/index.css">
+    <script src="https://kit.fontawesome.com/ecc5d81995.js" crossorigin="anonymous"></script>
+    <title>OlabelBul</title>
+</head>
+
+<body>
     <header>
 
-      <nav class="left">
-          <ul>
-            <li><a href="">produits</a></li>
-            <li><a href="">l'atélier</a></li>
-          </ul>
-      </nav>
+        <nav class="left">
+            <ul>
+              <li><a href="">produits</a></li>
+              <li><a href="">l'atélier</a></li>
+            </ul>
+        </nav>
+  
+        <div class="logo">
+            <a href="/page/index.html"><img src="../ressources/wetransfer_logo-l-ab-png_2023-05-30_0915/Fichiers PNG SSBG/Logo OLBB_Bulles noires.png" alt="logo"  width="150px"/></a>
+        </div>
+  
+        <nav class="right">
+            <ul>
+              <li><a href="">partenaires</a></li>
+              <li><a href="">contact</a></li>
+            </ul>
+        </nav>
+  
+      </header>
+    <Main>
+        <section  id="nutritionSection">
+            <div class="infoNutritionnelle">
+                <div class="angle angleLeftUp"></div>
+                <div class="textuel">
+                    <p>Le Kombucha est une boisson rafraîchissante et sans alcool 
+                        qui gagne rapidement en popularité en raison de ses nombreux 
+                        bienfaits nutritionnels. Originaire d'Asie, cette boisson 
+                        fermentée est produite à partir d'un mélange de thé sucré 
+                        et d'une culture symbiotique de bactéries et de levures (SCOBY). <br><br>
+                        Une boisson sans alcool savoureuse et pleine de bienfaits pour la santé. 
+                        Que ce soit pour stimuler votre système immunitaire, améliorer 
+                        votre digestion ou simplement vous désaltérer de façon saine, 
+                        le Kombucha est un choix nutritionnellement intéressant.
+                    </p>
+                    <table>
+                        <thead>
+                            <tr id="firstRow">
+                                <th class="tabTitle">Valeur Nutritive / Nutritional Facts</th>
+                            </tr>
+                            <tr>
+                                <th class="tabTitle" style="font-weight: 100;">pour 100ml / for 100ml</th>
+                                <td></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Énergie / Energy</th>
+                                <td>58Kj / 14 kcal</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Matières grasses / Fat</th>
+                                <td>0g</td>
+                            </tr>
+                            <tr>
+                                <th style="font-weight: 100;">dont acides gras saturés / of which satured fat</th>
+                                <td>0g</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Glucydes / Carbohidatres</th>
+                                <td>3.6mg</td>
+                            </tr>
+                            <tr>
+                                <th style="font-weight: 100;">dont sucres / of which sugars</th>
+                                <td>3.6mg</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Protéines / Proteins</th>
+                                <td>0g</td>
+                            </tr>
+                            <tr id="lastRow">
+                                <th scope="row">Sel / Salt</th>
+                                <td>0g</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="quiestKombucha">
+                    <h2>Qui est Kombucha ?</h2>
+                </div>
+                <div class="centralLine upLine"></div>
+                <div class="illustration">
+                    <div class="bottleTeaLeaves">
+                        <img id="teaLeaves"
+                            src="../ressources/images/fresh-tea-leaves-with-dew-on-the-leaf-surface-png.webp"
+                            alt="Feuilles du thé">
+                        <img id="nutritionalBottle" src="../ressources/images/BouteilleRetouchee.png"
+                            alt="Bouteille du boisson Kombucha">
+                        <a id="fairemonkomboucha" href="#"><span>Faire mon Komboucha</span></a>
+                        <!--div id="boxTagTitles">
+                                <h3 id="tagNaturelle" class="tagTitles">Naturelle</h3>
+                                <h3 id="tagArtisanale" class="tagTitles">Artisanale</h3>
+                                <h3 id="tagSaveureuse" class="tagTitles">Saveureuse</h3>
+                                <h3 id="tagVivante" class="tagTitles">Vivante</h3>
+                                <h3 id="tagSobre" class="tagTitles">Sobre</h3>
+                                <div id="arrows" >
+                                    <div id="naturelle" class="arrow">
+                                        <div class="curve"></div>
+                                        <div class="point"></div>
+                                    </div>
+                                    <div id="artisanale"class="arrow">
+                                        <div class="curve"></div>
+                                        <div class="point"></div>
+                                    </div>                   
+                                    <div id="saveureuse" class="arrow rightSide">
+                                        <div class="curve"></div>
+                                        <div class="point"></div>
+                                    </div>
+                                    <div id="vivante" class="arrow rightSide">
+                                        <div class="curve"></div>
+                                        <div class="point"></div>
+                                    </div>
+                                    <div id="sobre" class="arrow rightSide">
+                                        <div class="curve"></div>
+                                        <div class="point"></div>
+                                    </div>
+                                </div-->
+                    </div>
+                </div>
+                <div class="angle angleRigthDown"></div>
+            </div>
+        </section>
+        <section id="nousSommesSection">
+            <div id="nousSommes">
+                <div class="nousSommes">
+                    <img src="../ressources/images/portraitOlaZevounou.png" alt="Portrait d'Ola ZEVOUNOU, fondatrice" width="600px" height="500px">
+                    <h1 id="textNous">Nous</h1>
+                    <h1 id="textSommes"textSommes style="font-family: Dr Sugiyama;">Sommes</h1>
+                    <h1 id="textAternative" >L'ALTERNATIVE</h1>
+                    <div id="olaName">-------- Ola ZEVOUNOU ---------</div>
+                    <p>
+                        Bienvenue dans l'univers fascinant d'Ola ZEVOUNOU, une entrepreneuse passionnée qui a suivi sa 
+                        passion pour la nutrition et la fermentation des aliments solides et liquides pour créer une entreprise unique. 
+                        À 45 ans, j'ai décidé de changer de voie et de me lancer en tant que chef d'entreprise. C'est ainsi que L'Atelier de bulles 
+                        a vu le jour, une startup spécialisée dans les compléments alimentaires, plus précisément la fabrication de Kombucha artisanal. <br><br>
 
-      <div class="logo">
-          <a href="/page/index.html"><img src="/img/logo.png" alt="logo"/></a>
-      </div>
+                        Basée au cœur de Lille, j'ai établi mon laboratoire dans une cave où je donne vie à mes créations avec une passion inébranlable. 
+                        Mon objectif est clair : devenir la référence des boissons non alcoolisées pour les consommateurs dans les bars, 
+                        restaurants et autres établissements de boissons. Je vise tout particulièrement les restaurants, 
+                        les bars et les distributeurs de boissons qui partagent ma vision d'offrir des alternatives saines et délicieuses. <br><br>
+                        
+                        Mon parcours de co-gérante de restaurant m'a permis d'acquérir une expérience précieuse dans l'industrie de la restauration. 
+                        Cependant, c'est ma certification en Nutrition Santé et ma formation approfondie en fermentation des aliments qui ont 
+                        donné naissance à ma passion pour le Kombucha artisanal. Chaque bouteille d'Olabelbul Kombucha que je crée est le 
+                        résultat d'un travail méticuleux et d'une sélection rigoureuse des meilleurs ingrédients pour garantir une expérience gustative 
+                        exceptionnelle. <br><br>
 
-      <nav class="right">
-          <ul>
-            <li><a href="">partenaires</a></li>
-            <li><a href="">contact</a></li>
-          </ul>
-      </nav>
+                        Je suis convaincue que le Kombucha est bien plus qu'une simple boisson. C'est un mode de vie, une façon de prendre soin de 
+                        notre corps et de notre bien-être. C'est pourquoi je souhaite partager ma passion avec le monde entier. 
+                        En interagissant avec ma marque, vous rejoignez une communauté dévouée qui croit en l'importance de consommer des 
+                        produits sains et naturels. <br><br>
 
-    </header>
-    
-  </body>
+                        Je vous invite à devenir un partenaire de distribution des produits Olabelbul. Ensemble, nous pouvons offrir aux consommateurs 
+                        une alternative rafraîchissante et nutritive. Rejoignez-moi dans cette aventure et ensemble, faisons de l'Olabelbul Kombucha 
+                        artisanal la boisson incontournable de demain. <br><br>
+
+                        Découvrez la magie d'Olabelbul Kombucha artisanal et laissez-vous séduire par son goût unique et ses bienfaits 
+                        pour votre santé. Vous avez le pouvoir de faire une différence en soutenant une marque locale et en contribuant à 
+                        un mode de vie plus sain. N'attendez plus, plongez dans l'univers d'Ola ZEVOUNOU et embarquez dans cette expérience 
+                        gustative exceptionnelle.<br><br>
+                    </p>  
+                </div>
+            </div>
+        </section>
+        <section id="partnersSection">
+            <h2>Ils nous soutiennent</h2>
+            <div id="partners">
+                <img src="../ressources/images/logo-houblons-nos-grand.png" alt="Logo Association Houblons-nous" width="100px">
+                <img src="../ressources/images/logo-tokici-vector.png" alt="logo Association Tok'Ici" width="100px">
+            </div>
+        </section>    
+        
+    </Main>
+    <footer>
+        <div>
+            <a href=""><span>Devenir partenaire</span></a>
+            <a href=""><span>Faire mon Komboucha</span></a>
+            <a href=""><span>Kombucha</span></a>
+        </div>
+        <span id="lastSpan" >Fait avec <i class="fa-regular fa-heart"></i> par de simploniens, 2023.</span>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+
 </html>
+  <!--div id="nutritionalDownLine" class="centralLine downLine"></div-->
+<!-- <section>
+                <div class="centralHeader">
+                    <div id="centralHeaderUpperAngle" class="angle angleLeftUp"></div>
+                    <video autoplay muted loop id="videoBulles" src="../ressources/videos/sparkling_-_27068 (1080p).mp4"></video>
+                    
+                        <img id="logo" src="../ressources/wetransfer_logo-l-ab-png_2023-05-30_0915/Fichiers PNG SSBG/Logo OLBB_OLBB cercle NB-20.png" alt="Logo olabelbul, Kombucha artisanal">
+                        <div id="centralUpperLine" class="centralLine upLine"></div>
+                    </div>
+                    <img id="bouteille" src="../ressources/images/BouteilleOmbrePorteeRetouchee.png" alt="Bouteille de Boisson Kombucha">
+                        <h1>L'Atelier des Bulles</h1>
+                        <div id="centraHeaderlDownAngle"class="angle angleRigthDown"></div>
+                        <div id="centralDownLine" class="centralLine downLine"></div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="centralHeader">
+                    <div class="graySide" ></div>
+                    <div class="angle angleLeftUp"></div>                        
+                        <img id="logo" src="../ressources/wetransfer_logo-l-ab-png_2023-05-30_0915/Fichiers PNG SSBG/Logo OLBB_OLBB cercle NB-20.png" alt="Logo olabelbul, Kombucha artisanal">
+                        <div class="centralLine upLine"></div>
+                    </div>
+                    <div class="whiteSide"></div>
+                    <img id="bouteille" src="../ressources/images/BouteilleOmbrePorteeRetouchee.png" alt="Bouteille de Boisson Kombucha">
+                        <h1>L'Atelier des Bulles</h1>
+                        <div class="angle angleRigthDown"></div>
+                        <div class="centralLine downLine"></div>
+                    </div>
+                </div>
+            </section>-->
